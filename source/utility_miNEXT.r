@@ -4,7 +4,7 @@ library(ggplot2)
 library(reshape2)
 
 
-###if data is dataframe and rowname as col 1####
+###if data is dataframe and rowname as col:type= 1####
 Fun_data2list<-function(data,type="1"){
   if(type=="1"){
     dat = list()
